@@ -1,0 +1,33 @@
+body{
+    background : green;
+    text-align: center;
+    font-family: trebuchet MS;
+    font-weight: bold;
+  }
+  
+  p{
+    color: white;
+  }
+  
+  h1{
+    color: goldenrod;
+  }
+  
+  #message-el{
+    font-style: italic;
+  }
+  
+  button{
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight:bold;
+    border:none;
+    border-radius: 2px;
+    margin-bottom: 2px
+    
+  }
+  
+  
