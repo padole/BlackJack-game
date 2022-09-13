@@ -10,12 +10,12 @@ body{
     color: white;
   }
   
-  h1{
-    color: goldenrod;
+  #message-el {
+    color: #e60a35;
   }
   
-  #message-el{
-    font-style: italic;
+  h1{
+    color: goldenrod;
   }
   
   button{
@@ -30,6 +30,23 @@ body{
     margin-bottom: 2px;
     margin-top: 2px;
     cursor: pointer;
+  }
+
+  #player-el {
+    color: #e60a35;
+  }
+
+  #refresh-el {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border: none;
+    background: none;
+  }
+
+  #refresh-el:hover {
+    transition: 0.7s;
+    transform: scale(1.2);
   }
   
   
