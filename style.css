@@ -1,8 +1,9 @@
 body{
-    background : green;
+    background-image: url(img/bj2.jpeg);
     text-align: center;
     font-family: trebuchet MS;
     font-weight: bold;
+    background-size: cover;
   }
   
   p{
