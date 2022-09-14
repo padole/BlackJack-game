@@ -7,17 +7,18 @@
     <title>BlackJack Game</title>
 
     <link rel="stylesheet" href="style.css">
-    
 </head>
 <body>
-    <h1>Black Jack</h1>
-    <p id = "message-el"> Want to play a round?</p>
-    <p id = "card-el"> Card:</p>
-    <p id = "sum-el">Sum:</p>
+    <h1>BlackJack</h1>
+    <p id="message-el">Ready to play a round?</p>
+    <p id="cards-el">Cards:</p>
+    <p id="sum-el">Sum:</p>
     
-    <button onclick="startGame()">START GAME</button><br><br>
+    <button onclick="startGame()">START GAME</button><br>
     <button onclick="newCard()">NEW CARD</button>
-
+    
+    <p id="player-el"></p>
+    <a id="refresh-el" onclick="playAgain()" href="index.html"></a>
 
     <script src="script.js"></script>
 </body>

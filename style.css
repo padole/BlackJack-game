@@ -1,7 +1,9 @@
 body{
-    background-image: url(img/bj2.jpeg);
+
+    background: black;
+    background-size: cover;
     text-align: center;
-    font-family: trebuchet MS;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
     font-weight: bold;
     background-size: cover;
   }
@@ -10,25 +12,43 @@ body{
     color: white;
   }
   
+  #message-el {
+    color: #e60a35;
+  }
+  
   h1{
     color: goldenrod;
   }
   
-  #message-el{
-    font-style: italic;
-  }
-  
   button{
-    color: #016f32;
+    color: #000000;
     width: 150px;
     background: goldenrod;
     padding-top: 5px;
     padding-bottom: 5px;
-    font-weight:bold;
-    border:none;
+    font-weight: bold;
+    border: none;
     border-radius: 2px;
-    margin-bottom: 2px
-    
+    margin-bottom: 2px;
+    margin-top: 2px;
+    cursor: pointer;
+  }
+
+  #player-el {
+    color: #e60a35;
+  }
+
+  #refresh-el {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border: none;
+    background: none;
+  }
+
+  #refresh-el:hover {
+    transition: 0.7s;
+    transform: scale(1.2);
   }
   
   
