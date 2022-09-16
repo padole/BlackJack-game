@@ -9,16 +9,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>BlackJack</h1>
-    <p id="message-el">Ready to play a round?</p>
-    <p id="cards-el">Cards:</p>
-    <p id="sum-el">Sum:</p>
+    <div class="content">
+        <h1>BlackJack</h1>
+        <p id="message-el">Ready to play a round?</p>
+        <p id="cards-el">Cards:</p>
+        <p id="sum-el">Sum:</p>
     
-    <button onclick="startGame()">START GAME</button><br>
-    <button onclick="newCard()">NEW CARD</button>
+        <button id="sg" onclick="startGame()">START GAME</button><br>
+        <button id="nc" onclick="newCard()">NEW CARD</button>
     
-    <p id="player-el"></p>
-    <a id="refresh-el" onclick="playAgain()" href="index.html"></a>
+        <p id="player-el"></p>
+        <a id="refresh-el" onclick="playAgain()" href="index.html"></a>
+    </div>
 
     <script src="script.js"></script>
 </body>

@@ -18,7 +18,7 @@ playerEL.textContent = player.name + ": £" + player.chips
 
 function playAgain() {
     let refreshEL = document.getElementById("refresh-el")
-    refreshEL.textContent = "PLAY AGAIN?"
+    refreshEL.textContent = "WANNA DEAL AGAIN?"
 }
 
 function getRandomCard() {
@@ -80,6 +80,11 @@ function newCard() {
         console.log(cards)
         console.log("Drawing a new card from the deck..")
         renderGame()
+    }
+
+    if (isAlive === true && hasBlackJack === false) {
+    message = "How would you like to play your hand? 🙂"
+    messageEl.textContent = message
     }
 }
 
