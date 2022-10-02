@@ -23,7 +23,7 @@ body{
     align-items: center;
     border-top: 3px inset;
     border-right: 3px outset;
-    border-left: inset;
+    border-left: 3px inset;
 }
   
   p{
@@ -82,18 +82,22 @@ body{
     border-bottom: 3px solid goldenrod;
     border-radius: 4px
   }
-
-  @media screen and (max-width: 400px) {
+  
+  @media(max-width: 768px) {
     body {
-        background-image: url(/img/background.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
         background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
     }
-
+    
     .content {
-        min-height: 50%;
+        padding-top: -7px;
+        padding-bottom: 20px;
+        margin-top: -125px;
+        margin-bottom: 125px;
+        width: 18rem;
+        height: 45%;
     }
-}
+  }
   
   

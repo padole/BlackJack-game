@@ -83,7 +83,7 @@ function newCard() {
     }
 
     if (isAlive === true && hasBlackJack === false) {
-    message = "How would you like to play your hand? 🙂"
+    message = "How would you like to play your hand?"
     messageEl.textContent = message
     }
 }
